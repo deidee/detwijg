@@ -1,0 +1,23 @@
+{
+  "name": "deidee/detwijg",
+  "type": "library",
+  "description": "A Twig extension.",
+  "keywords": ["twig"],
+  "homepage": "https://deidee.com/",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "ACJ",
+      "homepage": "https://alexanderchristiaanjacob.com/",
+      "role": "Lead Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.5",
+    "twig/twig": "^3.10"
+  },
+  "autoload": {
+    "psr-4" : { "Deidee\\Detwijg\\" : "" }
+  }
+}
